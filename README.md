@@ -1,71 +1,36 @@
-Foodsoft
-=========
-
-[![Build Status](https://github.com/foodcoops/foodsoft/workflows/Ruby/badge.svg)](https://github.com/foodcoops/foodsoft/actions)
-[![Coverage Status](https://coveralls.io/repos/foodcoops/foodsoft/badge.svg?branch=master)](https://coveralls.io/r/foodcoops/foodsoft?branch=master)
-[![Docs Status](https://inch-ci.org/github/foodcoops/foodsoft.svg?branch=master)](http://inch-ci.org/github/foodcoops/foodsoft)
-[![Code Climate](https://codeclimate.com/github/foodcoops/foodsoft.svg)](https://codeclimate.com/github/foodcoops/foodsoft)
-[![Docker Status](https://img.shields.io/docker/cloud/build/foodcoops/foodsoft.svg)](https://hub.docker.com/r/foodcoops/foodsoft)
-[![Documentation](https://img.shields.io/badge/yard-docs-blue.svg)](http://rubydoc.info/github/foodcoops/foodsoft)
-
-Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling).
-
-A food cooperative is a group of people that buy food from suppliers of their own choosing. A collective do-it-yourself supermarket. Members  order their products online and collect them on a specified day. And all put in a bit of work to make that possible. Foodsoft facilitates the process.
-
-If you're a food coop considering to use foodsoft, please have a look at the [wiki page for foodcoops](https://github.com/foodcoops/foodsoft/wiki/For-foodcoops). When you'd like to experiment with or develop foodsoft, you can read [how to set it up](https://github.com/foodcoops/foodsoft/blob/master/doc/SETUP_DEVELOPMENT.md) on your own computer.
-
-More information about using this software and contributing can be found on the [wiki](https://github.com/foodcoops/foodsoft/wiki).
-
-Roadmap
--------
-
-If you'd like to see what is currently bring prioritised for development, check [our roadmap](https://github.com/orgs/foodcoops/projects/1). If you'd like to influence the roadmap, please join our [monthly community call](https://forum.foodcoops.net/t/foodsoft-monthly-community-call/573/6). As of March 2023, Foodsoft has limited development capacity but we are trying to build this up once more. For now, we try to prioritise what we work on, in order to focus our efforts. If your proposed changes are waiting for some time without review, please join the community call to discuss.
-
-Developing
-----------
-
-> Foodsoft development needs your help! If you want to hack/triage/organise to improve the software, please consider joining our monthly community calls which are announced on [this forum thread](https://forum.foodcoops.net/t/foodsoft-monthly-community-call/573/6). In these calls, we check in with each other, discuss what to prioritise and try to make progress with development and community issues together.
-
-Get foodsoft [running locally](doc/SETUP_DEVELOPMENT.md),
-then visit our [Developing Guidelines](https://github.com/foodcoops/foodsoft/wiki/Developing-Guidelines)
-page on the wiki.
-
-Get a foodsoft dev-environment running in the browser with Gitpod
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/foodcoops/foodsoft)
-
-Follow these [instructions](doc/SETUP_DEVELOPMENT_GITPOD.md) to complete setup from within the Gitpod workspace. 
-
-Deploying
----------
-
-Setup foodsoft to [run in production](doc/SETUP_PRODUCTION.md), or join an existing
-[hosting platform](https://foodcoops.net/foodsoft-hosting/).
-
-License
--------
-
-Foodsoft is licensed under the [AGPL](https://www.gnu.org/licenses/agpl-3.0.html)
-license (version 3 or later). Practically this means that you are free to use,
-adapt and redistribute the software, as long as you publish any changes you
-make to the code.
-
-For private use, there are no restrictions, but if you give others access to
-Foodsoft (like running it open to the internet), you must also make your
-changes available under the same license. This can be as easy as
-[forking](https://github.com/foodcoops/foodsoft/fork) the project on Github and
-pushing your changes. You are not required to integrate your changes back into
-the main Foodsoft version (but if you're up for it that would be very welcome).
-
-To make it a little easier, configuration files are exempt, so you can just
-install and configure Foodsoft without having to publish your changes. These
-files are marked as public domain in the file header.
-
-If you have any remaining questions, please
-[open an issue](https://github.com/foodcoops/foodsoft/issues/new) or open a new
-topic at the [forum](https://forum.foodcoops.net).
-
-Please see [LICENSE](LICENSE.md) for the full and authoritative text. Some
-bundled third-party components have [other licenses](vendor/README.md).
-
-Thanks to [Icons8](http://icons8.com/) for letting us use their icons.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">食品软</font></font></h1><a id="user-content-foodsoft" class="anchor" aria-label="固定链接：Foodsoft" href="#foodsoft"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://github.com/foodcoops/foodsoft/actions"><img src="https://github.com/foodcoops/foodsoft/workflows/Ruby/badge.svg" alt="构建状态" style="max-width: 100%;"></a>
+<a href="https://coveralls.io/r/foodcoops/foodsoft?branch=master" rel="nofollow"><img src="https://camo.githubusercontent.com/c4a83dfa3848829dbe87829a84088518ad7613dc0b46aef5271be0ca0237045f/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f666f6f64636f6f70732f666f6f64736f66742f62616467652e7376673f6272616e63683d6d6173746572" alt="覆盖状态" data-canonical-src="https://coveralls.io/repos/foodcoops/foodsoft/badge.svg?branch=master" style="max-width: 100%;"></a>
+<a href="http://inch-ci.org/github/foodcoops/foodsoft" rel="nofollow"><img src="https://camo.githubusercontent.com/e1928f8ad5037082385687943c846b3d6c83225964aa4bfb68187827d36975cb/68747470733a2f2f696e63682d63692e6f72672f6769746875622f666f6f64636f6f70732f666f6f64736f66742e7376673f6272616e63683d6d6173746572" alt="文档状态" data-canonical-src="https://inch-ci.org/github/foodcoops/foodsoft.svg?branch=master" style="max-width: 100%;"></a>
+<a href="https://codeclimate.com/github/foodcoops/foodsoft" rel="nofollow"><img src="https://camo.githubusercontent.com/83a14d50a1b33610148d76ab781e819b28af0d08cb79ab27535a9fc22018c0cd/68747470733a2f2f636f6465636c696d6174652e636f6d2f6769746875622f666f6f64636f6f70732f666f6f64736f66742e737667" alt="代码气候" data-canonical-src="https://codeclimate.com/github/foodcoops/foodsoft.svg" style="max-width: 100%;"></a>
+<a href="https://hub.docker.com/r/foodcoops/foodsoft" rel="nofollow"><img src="https://camo.githubusercontent.com/e99404c715731ca4040c6aa14db5309d7112760fad9d08caf94d15b8ee01c904/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f636c6f75642f6275696c642f666f6f64636f6f70732f666f6f64736f66742e737667" alt="Docker 状态" data-canonical-src="https://img.shields.io/docker/cloud/build/foodcoops/foodsoft.svg" style="max-width: 100%;"></a>
+<a href="http://rubydoc.info/github/foodcoops/foodsoft" rel="nofollow"><img src="https://camo.githubusercontent.com/77a3e6318e67e5afdb65ed1ca2f3876ac6b1eca2ad1f74913ac26b89a7779eab/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f796172642d646f63732d626c75652e737667" alt="文档" data-canonical-src="https://img.shields.io/badge/yard-docs-blue.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于网络的软件，用于管理非营利性食品合作社（产品目录、订购、会计、作业调度）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">食品合作社是一群人，他们从自己选择&ZeroWidthSpace;&ZeroWidthSpace;的供应商那里购买食品。一个集体的自助超市。成员们在网上订购产品，并在指定的日期领取。所有人都付出了一些努力才得以实现。Foodsoft 促进了这一过程。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您是一家考虑使用 foodsoft 的食品合作社，请查看</font></font><a href="https://github.com/foodcoops/foodsoft/wiki/For-foodcoops"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">foodcoops 的 wiki 页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。当您想尝试或开发 foodsoft 时，您可以阅读如何</font><font style="vertical-align: inherit;">在自己的计算机上</font></font><a href="https://github.com/foodcoops/foodsoft/blob/master/doc/SETUP_DEVELOPMENT.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行设置。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于使用该软件和做出贡献的更多信息可以在</font></font><a href="https://github.com/foodcoops/foodsoft/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上找到。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图</font></font></h2><a id="user-content-roadmap" class="anchor" aria-label="永久链接：路线图" href="#roadmap"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想了解目前优先开发的内容，请查看</font></font><a href="https://github.com/orgs/foodcoops/projects/1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的路线图</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。如果您想影响路线图，请加入我们的</font></font><a href="https://forum.foodcoops.net/t/foodsoft-monthly-community-call/573/6" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每月社区电话会议</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。截至 2023 年 3 月，Foodsoft 的开发能力有限，但我们正在努力再次建立这一能力。目前，我们尝试优先考虑我们的工作，以便集中精力。如果您提议的更改正在等待一段时间而未得到审核，请加入社区电话会议进行讨论。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发展</font></font></h2><a id="user-content-developing" class="anchor" aria-label="永久链接：开发中" href="#developing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Foodsoft 开发需要您的帮助！如果您想破解/分类/组织以改进软件，请考虑加入我们每月的社区电话会议，这些会议在</font></font><a href="https://forum.foodcoops.net/t/foodsoft-monthly-community-call/573/6" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此论坛主题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上公布。在这些电话会议中，我们互相检查，讨论优先考虑什么，并尝试共同在开发和社区问题上取得进展。</font></font></p>
+</blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让 foodsoft</font></font><a href="/foodcoops/foodsoft/blob/master/doc/SETUP_DEVELOPMENT.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在本地运行</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，然后访问</font><font style="vertical-align: inherit;">
+wiki 上的</font></font><a href="https://github.com/foodcoops/foodsoft/wiki/Developing-Guidelines"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发指南页面。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Gitpod 在浏览器中运行 foodsoft 开发环境</font></font></p>
+<p dir="auto"><a href="https://gitpod.io/#https://github.com/foodcoops/foodsoft" rel="nofollow"><img src="https://camo.githubusercontent.com/95fbab4ac41e62a9f66e6d1d78f8249c418b33f8c7739c4f9c593f953f5362de/68747470733a2f2f676974706f642e696f2f627574746f6e2f6f70656e2d696e2d676974706f642e737667" alt="在 Gitpod 中打开" data-canonical-src="https://gitpod.io/button/open-in-gitpod.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照这些</font></font><a href="/foodcoops/foodsoft/blob/master/doc/SETUP_DEVELOPMENT_GITPOD.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Gitpod 工作区内完成设置。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署</font></font></h2><a id="user-content-deploying" class="anchor" aria-label="永久链接：部署" href="#deploying"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置foodsoft 以</font></font><a href="/foodcoops/foodsoft/blob/master/doc/SETUP_PRODUCTION.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在生产中运行</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，或加入现有的
+</font></font><a href="https://foodcoops.net/foodsoft-hosting/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">托管平台</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Foodsoft 遵循</font></font><a href="https://www.gnu.org/licenses/agpl-3.0.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AGPL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+许可证（版本 3 或更高版本）。实际上，这意味着您可以自由使用、改编和重新分发该软件，只要您发布对代码所做的任何更改即可。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于私人使用，没有限制，但如果您允许其他人访问 Foodsoft（例如在互联网上公开运行），您还必须在同一许可证下提供您的更改。这可以像
+在 Github 上</font></font><a href="https://github.com/foodcoops/foodsoft/fork"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分叉</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目并推送您的更改一样简单。您不需要将您的更改重新集成到主 Foodsoft 版本中（但如果您愿意，那将非常受欢迎）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了方便起见，配置文件是免除的，因此您只需安装和配置 Foodsoft，而不必发布您的更改。这些文件在文件头中标记为公共域。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您还有其他问题，请
+在</font><a href="https://forum.foodcoops.net" rel="nofollow"><font style="vertical-align: inherit;">论坛上</font></a></font><a href="https://github.com/foodcoops/foodsoft/issues/new"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提出问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或打开新主题</font><font style="vertical-align: inherit;">。</font></font><a href="https://forum.foodcoops.net" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="/foodcoops/foodsoft/blob/master/LICENSE.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LICENSE</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取完整且权威的文本。一些捆绑的第三方组件有</font></font><a href="/foodcoops/foodsoft/blob/master/vendor/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢</font></font><a href="http://icons8.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Icons8</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许我们使用他们的图标。</font></font></p>
+</article></div>
